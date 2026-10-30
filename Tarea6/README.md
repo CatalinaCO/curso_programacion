@@ -28,4 +28,6 @@ python descomprimir.py <archivo.huf> [salida]
 ## Ejemplo de uso
 Para este caso, usamos un archivo en formato .txt llamado ej, donde aparecen 
 la compresión con la extensión .huf y al descomprimir se generó 
-el archivo recuperado_ej.txt
+el archivo recuperado_ej.txt. El siguiente output corresponde al archivo 
+comprimido en hexadecimal: 
+![Output](Captura.png)
