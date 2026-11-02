@@ -5,7 +5,7 @@ de uso en el archivo main.py
 
 ## Funcionamiento
 
-1. Verificamos la implementación del código Cython `huffman_cy.pyx` por medio de `main.py`.
+1. Verificamos la implementación del código Cython `huffman_cy.pyx` por medio de `main.py` para el posterior ejemplo.
 2. Para comparar los tiempos de ejecución usamos `medir.py` donde generamos `origen_grande.txt` para las posteriores pruebas.
 
 
