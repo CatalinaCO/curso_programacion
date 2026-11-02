@@ -1,8 +1,14 @@
 import time
+import lorem
 import huffman as py   
 import huffman_cy as cy    
 
 ARCHIVO = "origen_grande.txt"
+
+# Generar el texto de prueba
+with open(ARCHIVO, "w", encoding="utf-8") as f:
+    for _ in range(5000):
+        f.write(lorem.paragraph() + "\n")
 
 def medir(modulo):
 
