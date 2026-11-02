@@ -15,8 +15,8 @@ def medir(modulo):
     t0 = time.perf_counter()
 
     comp = modulo.CompresorHuffman(ARCHIVO)
-    codigos, raiz = comp.comprimir("salida.bin")
-    comp.descomprimir("salida.bin", raiz, "recuperado.txt")
+    codigos, raiz = comp.comprimir("salida_grande.bin")
+    comp.descomprimir("salida_grande.bin", raiz, "recuperado_grande.txt")
 
     return time.perf_counter() - t0
 
