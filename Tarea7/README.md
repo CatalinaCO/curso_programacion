@@ -21,4 +21,5 @@ Los resultados fueron:
 
 ![texto alternativo](Captura2.png)
 
-Esta ejecución crea los archivos: salida_grande.bin, recuperado_grande.txt.
+Esta ejecución crea los archivos: salida_grande.bin, recuperado_grande.txt. Con este último output verificamos que en esta ejecución el código compilado con cython es 1.4 veces 
+más rápido que el de python.
